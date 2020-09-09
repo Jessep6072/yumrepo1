@@ -8,7 +8,7 @@ const db = mysql({
     password: process.env.MYSQL_PASSWORD
   }
 })
-
+//test
 exports.query = async query => {
   try {
     const results = await db.query(query)
