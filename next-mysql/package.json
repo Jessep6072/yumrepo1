@@ -1,0 +1,28 @@
+{
+  "name": "next-mysql",
+  "version": "1.0.0",
+  "description": "test for connecting next.js app to MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessep6072/UICHierarchy.git"
+  },
+  "keywords": [
+    "nextjs",
+    "mysql"
+  ],
+  "author": "Jesse B Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessep6072/UICHierarchy/issues"
+  },
+  "homepage": "https://github.com/Jessep6072/UICHierarchy#readme",
+  "dependencies": {
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
+  }
+}
